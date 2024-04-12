@@ -16,42 +16,50 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        window?.rootViewController = createTabbar()
+        window                      = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene         = windowScene
+        window?.rootViewController  = createTabbar()
         window?.makeKeyAndVisible()
+        
+        configurenavigationBar()
     }
 
-    func createSearchNavigatoinController() -> UINavigationController {
-let searchVC = SearchVcViewController()
-        searchVC.title = "Search"
+
+    func createSearchNC() -> UINavigationController {
+        let searchVC        = SearchVcViewController()
+        searchVC.title      = "Search"
         searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
 
         return UINavigationController(rootViewController: searchVC)
     }
 
-    func createFavoritesNavigationController() -> UINavigationController {
-        let favoriteListVC = FavoritesListVC()
-        favoriteListVC.title = "Favorites"
-        favoriteListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
 
-        return UINavigationController(rootViewController: favoriteListVC)
+    func createFavoritesNC() -> UINavigationController {
+        let favoritesListVC         = FavoritesListVC()
+        favoritesListVC.title       = "Favorites"
+        favoritesListVC.tabBarItem  = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+
+        return UINavigationController(rootViewController: favoritesListVC)
     }
 
+
     func createTabbar() -> UITabBarController {
-        let tabbar = UITabBarController()
+        let tabbar                      = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
-        tabbar.viewControllers = [createSearchNavigatoinController(), createFavoritesNavigationController()]
+        tabbar.viewControllers          = [createSearchNC(), createFavoritesNC()]
 
         return tabbar
     }
 
+    func configurenavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
@@ -77,4 +85,6 @@ let searchVC = SearchVcViewController()
 
 
 }
+
+
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B558D6D2BAC42130027F7E7 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B558D6C2BAC42130027F7E7 /* GFButton.swift */; };
 		3B558D6F2BAC48180027F7E7 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B558D6E2BAC48180027F7E7 /* GFTextField.swift */; };
+		3BCA65A32BC9A01C0021C2DE /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA65A22BC9A01C0021C2DE /* FollowerListVC.swift */; };
 		3BEFB5352BA0075E004F43E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFB5342BA0075E004F43E6 /* AppDelegate.swift */; };
 		3BEFB5372BA0075E004F43E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFB5362BA0075E004F43E6 /* SceneDelegate.swift */; };
 		3BEFB53E2BA00762004F43E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFB53D2BA00762004F43E6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3B558D6C2BAC42130027F7E7 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		3B558D6E2BAC48180027F7E7 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		3BCA65A22BC9A01C0021C2DE /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		3BEFB5312BA0075E004F43E6 /* project from google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project from google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEFB5342BA0075E004F43E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BEFB5362BA0075E004F43E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				3BEFB54A2BA00A80004F43E6 /* FavoritesListVC.swift */,
 				3B558D6C2BAC42130027F7E7 /* GFButton.swift */,
 				3B558D6E2BAC48180027F7E7 /* GFTextField.swift */,
+				3BCA65A22BC9A01C0021C2DE /* FollowerListVC.swift */,
 			);
 			path = "project from google";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				3BEFB54B2BA00A80004F43E6 /* FavoritesListVC.swift in Sources */,
 				3B558D6D2BAC42130027F7E7 /* GFButton.swift in Sources */,
 				3BEFB5352BA0075E004F43E6 /* AppDelegate.swift in Sources */,
+				3BCA65A32BC9A01C0021C2DE /* FollowerListVC.swift in Sources */,
 				3BEFB5492BA00A18004F43E6 /* SearchVcViewController.swift in Sources */,
 				3BEFB5372BA0075E004F43E6 /* SceneDelegate.swift in Sources */,
 			);
