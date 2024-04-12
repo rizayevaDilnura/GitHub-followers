@@ -62,13 +62,13 @@
 			children = (
 				3BEFB5342BA0075E004F43E6 /* AppDelegate.swift */,
 				3BEFB5362BA0075E004F43E6 /* SceneDelegate.swift */,
-				3B558D6C2BAC42130027F7E7 /* GFButton.swift */,
-				3B558D6E2BAC48180027F7E7 /* GFTextField.swift */,
 				3BEFB53D2BA00762004F43E6 /* Assets.xcassets */,
 				3BEFB53F2BA00762004F43E6 /* LaunchScreen.storyboard */,
 				3BEFB5422BA00762004F43E6 /* Info.plist */,
 				3BEFB5482BA00A18004F43E6 /* SearchVcViewController.swift */,
 				3BEFB54A2BA00A80004F43E6 /* FavoritesListVC.swift */,
+				3B558D6C2BAC42130027F7E7 /* GFButton.swift */,
+				3B558D6E2BAC48180027F7E7 /* GFTextField.swift */,
 			);
 			path = "project from google";
 			sourceTree = "<group>";
