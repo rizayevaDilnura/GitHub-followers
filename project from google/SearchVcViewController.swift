@@ -25,7 +25,6 @@ let logoImageView = UIImageView()
         configureTextField()
         configureCallToActionButton()
         createDismissKeyboardTapGesture()
-
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -41,7 +40,7 @@ let logoImageView = UIImageView()
 
     @objc func pushFolllowerListVC() {
         guard isUsernameEntered else {
-            print("No username")
+presentGFAlertOnMainThread(title: "Empty Username", message: "Please enter username 🥹", buttonTitle: "OK")
             return
             }
 
