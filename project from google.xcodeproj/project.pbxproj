@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B257D3A2BE80E8F00DABE6D /* NetworkManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B257D392BE80E8F00DABE6D /* NetworkManager .swift */; };
 		3B558D6D2BAC42130027F7E7 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B558D6C2BAC42130027F7E7 /* GFButton.swift */; };
 		3B558D6F2BAC48180027F7E7 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B558D6E2BAC48180027F7E7 /* GFTextField.swift */; };
 		3B66678F2BE5732200C88AA4 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B66678E2BE5732200C88AA4 /* Follower.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B257D392BE80E8F00DABE6D /* NetworkManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager .swift"; sourceTree = "<group>"; };
 		3B558D6C2BAC42130027F7E7 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		3B558D6E2BAC48180027F7E7 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		3B66678E2BE5732200C88AA4 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B257D382BE80E6600DABE6D /* Manager  */ = {
+			isa = PBXGroup;
+			children = (
+				3B257D392BE80E8F00DABE6D /* NetworkManager .swift */,
+			);
+			path = "Manager ";
+			sourceTree = "<group>";
+		};
 		3B6667892BE56C8A00C88AA4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		3BEFB5332BA0075E004F43E6 /* project from google */ = {
 			isa = PBXGroup;
 			children = (
+				3B257D382BE80E6600DABE6D /* Manager  */,
 				3B66678D2BE5730000C88AA4 /* Model */,
 				3B6667892BE56C8A00C88AA4 /* Screens */,
 				3B66678A2BE56CE600C88AA4 /* Custom Views */,
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6667912BE5748300C88AA4 /* User.swift in Sources */,
+				3B257D3A2BE80E8F00DABE6D /* NetworkManager .swift in Sources */,
 				3B558D6F2BAC48180027F7E7 /* GFTextField.swift in Sources */,
 				3BEFB54B2BA00A80004F43E6 /* FavoritesListVC.swift in Sources */,
 				3B558D6D2BAC42130027F7E7 /* GFButton.swift in Sources */,
