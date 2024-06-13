@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene         = windowScene
         window?.rootViewController  = createTabbar()
         window?.makeKeyAndVisible()
-        
-        configurenavigationBar()
+
+        configureNavigationBar()
     }
 
 
@@ -51,7 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         return tabbar
     }
 
-    func configurenavigationBar() {
+    func configureNavigationBar() {
         UINavigationBar.appearance().tintColor = .systemGreen
     }
 
