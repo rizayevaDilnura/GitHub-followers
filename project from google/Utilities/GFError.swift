@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  project from google
 //
-//  Created by Dilnura Rizaeva on 07.05.2024.
+//  Created by Dilnura Rizaeva on 14.06.2024.
 //
 
 import Foundation
