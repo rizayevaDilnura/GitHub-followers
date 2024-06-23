@@ -17,8 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         window                      = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene         = windowScene
-        window?.rootViewController  = createTabbar()
+        window?.windowScene          = windowScene
+        window?.rootViewController    = createTabbar()
         window?.makeKeyAndVisible()
 
         configureNavigationBar()
@@ -28,7 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createSearchNC() -> UINavigationController {
         let searchVC        = SearchVcViewController()
         searchVC.title      = "Search"
-        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        searchVC.tabBarItem  = UITabBarItem(tabBarSystemItem: .search, tag: 0)
 
         return UINavigationController(rootViewController: searchVC)
     }
